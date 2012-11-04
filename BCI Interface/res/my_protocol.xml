@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<PropertyList>
+<generic>
+   <output>
+       <line_separator>\n</line_separator>
+       <var_separator>,</var_separator>
+
+       <chunk>
+          <node>/position/latitude-deg</node>
+          <name>latitude</name>
+          <type>float</type>
+          <format>%03.4f</format>
+        </chunk>
+
+	<chunk>
+          <node>/position/longitude-deg</node>
+          <name>longitude</name>
+          <type>float</type>
+          <format>%03.4f</format>
+        </chunk>
+
+       <chunk>
+          <node>/velocities/airspeed-kt</node>
+          <name>speed</name>
+          <type>float</type>
+          <format>%05.0f</format>
+        </chunk>
+	
+	<chunk>
+          <node>/orientation/heading-deg</node>
+          <name>Heading</name>
+          <type>float</type>
+          <format>%03.1f</format>
+        </chunk>
+	
+	<chunk>
+          <node>/position/altitude-ft</node>
+          <name>Heading</name>
+          <type>float</type>
+          <format>%05.0f</format>
+        </chunk>
+	
+	<chunk>
+          <node>/orientation/pitch-deg</node>
+          <name>Pitch</name>
+          <type>float</type>
+          <format>%03.1f</format>
+        </chunk>
+
+	<chunk>
+          <node>/orientation/roll-deg</node>
+          <name>Roll</name>
+          <type>float</type>
+          <format>%03.1f</format>
+        </chunk>
+
+	<chunk>
+          <node>/velocities/mach</node>
+          <name>mach</name>
+          <type>float</type>
+          <format>%03.1f</format>
+        </chunk>
+
+   </output>
+ </generic>
+</PropertyList>

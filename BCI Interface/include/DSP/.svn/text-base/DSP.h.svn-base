@@ -1,0 +1,47 @@
+/*=====================================================================
+ 
+ DSP Library
+
+
+ Copyright 2011 Hamilton Kibbe
+ All rights reserved
+ 
+=====================================================================*/
+#ifndef DSP_H_
+#define DSP_H_
+
+namespace DSP
+{
+
+//---------------------------------------------------------------------
+// CONSTANTS
+
+	// Pi
+	const double PI = 3.1415926535897932384626433832795028841971694;
+
+	// 2 * Pi
+	const double TWO_PI = PI * 2;
+
+	// Pi / 2
+	const double HALF_PI = PI / 2;
+
+
+}
+
+// DSP Status Codes
+typedef enum
+{
+	DSP_OK = 1,	
+						
+	DSP_ERROR = 0,
+						
+	DSP_ERROR_NOT_INITIALIZED = -1,
+
+	DSP_ERROR_BAD_ALLOC = -2,
+
+	DSP_ERROR_OUT_OF_RANGE = -3
+
+} DSP_Status;
+
+
+#endif

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/bcicapstone_datacollection/!svn/ver/131/include/Wfilter
+END
+eeg_buffer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/bcicapstone_datacollection/!svn/ver/106/include/Wfilter/eeg_buffer.hpp
+END
+fftw_new.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/bcicapstone_datacollection/!svn/ver/79/include/Wfilter/fftw_new.hpp
+END
+FilteredChannelData.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/bcicapstone_datacollection/!svn/ver/106/include/Wfilter/FilteredChannelData.h
+END
+eeg_whitening_filter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/bcicapstone_datacollection/!svn/ver/131/include/Wfilter/eeg_whitening_filter.hpp
+END
+whitening_filter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/bcicapstone_datacollection/!svn/ver/79/include/Wfilter/whitening_filter.hpp
+END
+create_whitening_filter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/bcicapstone_datacollection/!svn/ver/79/include/Wfilter/create_whitening_filter.hpp
+END
+eeg_filter.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/bcicapstone_datacollection/!svn/ver/79/include/Wfilter/eeg_filter.hpp
+END
+csv_vv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/bcicapstone_datacollection/!svn/ver/79/include/Wfilter/csv_vv.hpp
+END
+eeg_buffer_win.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/bcicapstone_datacollection/!svn/ver/106/include/Wfilter/eeg_buffer_win.hpp
+END
+cconv.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/bcicapstone_datacollection/!svn/ver/90/include/Wfilter/cconv.hpp
+END

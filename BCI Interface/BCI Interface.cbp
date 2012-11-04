@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BCI Interface" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BCI Interface" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="src" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option host_application="sudo" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BCI Interface" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="src" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="/usr/include" />
+			<Add directory="/usr/include/libglade-2.0" />
+			<Add directory="/usr/include/libusb-1.0" />
+			<Add directory="/usr/include/gtk-2.0" />
+			<Add directory="/usr/include/glib-2.0" />
+			<Add directory="/usr/include/pango-1.0" />
+			<Add directory="/usr/lib/gtk-2.0/include" />
+			<Add directory="/usr/lib/glib-2.0/include" />
+			<Add directory="/usr/include/atk-1.0" />
+		</Compiler>
+		<Linker>
+			<Add library="/usr/lib/libbioamp.so" />
+		</Linker>
+		<Unit filename="include/Alert.h" />
+		<Unit filename="include/Calibrator.h" />
+		<Unit filename="include/Callbacks.h" />
+		<Unit filename="include/ChannelData.h" />
+		<Unit filename="include/Commands.h" />
+		<Unit filename="include/DESolver.h" />
+		<Unit filename="include/DEv_Filter.h" />
+		<Unit filename="include/DSP/DSP.h" />
+		<Unit filename="include/DSP/circular_buffer.h" />
+		<Unit filename="include/DataLogger.h" />
+		<Unit filename="include/Detector.h" />
+		<Unit filename="include/EEG_DEv_Filter.h" />
+		<Unit filename="include/Fgfs.h" />
+		<Unit filename="include/FilterSolver.h" />
+		<Unit filename="include/Flightgear_BCI.h" />
+		<Unit filename="include/GUI.h" />
+		<Unit filename="include/Instrument.h" />
+		<Unit filename="include/InterleavedChannelData.h" />
+		<Unit filename="include/Sequence.h" />
+		<Unit filename="include/Sequence_Wrapper.h" />
+		<Unit filename="include/SignalSource.h" />
+		<Unit filename="include/Socket.h" />
+		<Unit filename="include/Sound.h" />
+		<Unit filename="include/SystemParameters.h" />
+		<Unit filename="include/Template.h" />
+		<Unit filename="include/TestDef.h" />
+		<Unit filename="include/UsbAmpSource.h" />
+		<Unit filename="include/Validator.h" />
+		<Unit filename="include/Wfilter/FilteredChannelData.h" />
+		<Unit filename="include/Wfilter/cconv.hpp" />
+		<Unit filename="include/Wfilter/create_whitening_filter.hpp" />
+		<Unit filename="include/Wfilter/csv_vv.hpp" />
+		<Unit filename="include/Wfilter/eeg_buffer.hpp" />
+		<Unit filename="include/Wfilter/eeg_buffer_win.hpp" />
+		<Unit filename="include/Wfilter/eeg_filter.hpp" />
+		<Unit filename="include/Wfilter/eeg_whitening_filter.hpp" />
+		<Unit filename="include/Wfilter/fftw_new.hpp" />
+		<Unit filename="include/Wfilter/whitening_filter.hpp" />
+		<Unit filename="src/Alert.cpp" />
+		<Unit filename="src/Calibrator.cpp" />
+		<Unit filename="src/Calibrator_Interface.cpp" />
+		<Unit filename="src/Callbacks.cpp" />
+		<Unit filename="src/Commands.cpp" />
+		<Unit filename="src/DESolver.cpp" />
+		<Unit filename="src/DEv_Filter.cpp" />
+		<Unit filename="src/DataLogger.cpp" />
+		<Unit filename="src/DataLogger_Interface.cpp" />
+		<Unit filename="src/Detector.cpp" />
+		<Unit filename="src/Detector_Interface.cpp" />
+		<Unit filename="src/EEG_DEv_Filter.cpp" />
+		<Unit filename="src/FGFS.cpp" />
+		<Unit filename="src/FGFS_Interface.cpp" />
+		<Unit filename="src/FilterSolver.cpp" />
+		<Unit filename="src/FilteredChannelData.cpp" />
+		<Unit filename="src/Flightgear_BCI.cpp" />
+		<Unit filename="src/GUI.cpp" />
+		<Unit filename="src/Instrument.cpp" />
+		<Unit filename="src/Instrument_Interface.cpp" />
+		<Unit filename="src/InterleavedChannelData.cpp" />
+		<Unit filename="src/Sequence.cpp" />
+		<Unit filename="src/Sequence_Wrapper.cpp" />
+		<Unit filename="src/Sequence_Wrapper_Interface.cpp" />
+		<Unit filename="src/Socket.cpp" />
+		<Unit filename="src/Sound.cpp" />
+		<Unit filename="src/SystemParameters_Interface.cpp" />
+		<Unit filename="src/Template.cpp" />
+		<Unit filename="src/TestDef.cpp" />
+		<Unit filename="src/UsbAmpSource.cpp" />
+		<Unit filename="src/Validator.cpp" />
+		<Unit filename="src/WFilter_Interface.cpp" />
+		<Unit filename="src/create_whitening_filter.cpp" />
+		<Unit filename="src/csv_vv.cpp" />
+		<Unit filename="src/eeg_buffer.cpp" />
+		<Unit filename="src/eeg_buffer_win.cpp" />
+		<Unit filename="src/eeg_whitening_filter.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<lib_finder>
+				<lib name="gtk+-2.0" />
+				<lib name="libglade-2.0" />
+				<lib name="fftw3" />
+				<lib name="gstreamermm-0.10" />
+			</lib_finder>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

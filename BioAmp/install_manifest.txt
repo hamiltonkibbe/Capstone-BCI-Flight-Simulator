@@ -1,0 +1,8 @@
+/usr/lib/libbioamp.so
+/usr/include/bioamp/BulkTransfer.h
+/usr/include/bioamp/ControlTransfer.h
+/usr/include/bioamp/AmpDefs.h
+/usr/include/bioamp/AmpLink.h
+/usr/include/bioamp/AmpFilters.h
+/usr/include/bioamp/UsbAccess.h
+/usr/include/bioamp/AmpProtocol.h
